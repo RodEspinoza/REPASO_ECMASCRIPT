@@ -1,4 +1,5 @@
-//Default parameters
+//Default parameters  
+
 function newFunction(name, age, country){
     var name = name || 'Default';
     var age = age || 18;
@@ -7,4 +8,10 @@ function newFunction(name, age, country){
     console.log(name, age, country )
 }
 
-newFunction()
+let hello = 'Hello'
+let world = 'World'
+let concateSimple = hello + world
+
+// Concatenacion a partir de ecma6
+let epicPhrase = `${hello} ${world}`
+console.log(epicPhrase)
